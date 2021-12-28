@@ -7,12 +7,11 @@ function getNameFromCommandLine() {
 
 function getNameFromEnv() {
     // Write your code here
-    process.env.name = "Pardhu";
+    process.env.name = "Yash";
     return process.env.name;
 }
 
 function getNameFromReadLine() {
-    // Write your code here
     var readline = require("readline");
     
     var rl = readline.createInterface(process.stdin, process.stdout);
