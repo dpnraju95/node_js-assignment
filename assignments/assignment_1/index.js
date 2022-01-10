@@ -12,7 +12,6 @@ function getNameFromEnv() {
 }
 
 function getNameFromReadLine() {
-    // Write your code here
     var readline = require("readline");
     
     var rl = readline.createInterface(process.stdin, process.stdout);
